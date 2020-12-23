@@ -1,0 +1,73 @@
+h1 {
+    color: rgb(29, 136, 230);
+    text-align: center;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+li {
+    list-style: none;
+    display:flex;
+    align-items: center;
+}
+
+ul {
+    padding: 0%;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    background-color: rgb(34, 34, 34);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    width: 100px;
+    padding: 10px 0 ;
+}
+nav {
+    display: none;
+}
+
+
+
+
+.messageSecret-js {
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+@media (min-width: 640px){
+    nav {
+    display: block;
+}
+
+#btMenu{
+display: none;
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+nav a {
+    padding: 10px;
+}
+
+}
+
+h2 {
+    color: yellow;
+    text-align: center;
+}
